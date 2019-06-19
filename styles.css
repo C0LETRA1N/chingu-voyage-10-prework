@@ -119,3 +119,38 @@ li {
 .jumbotron {
     padding-top: 0;
 }
+
+.jumbotron h1 {
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+.jumbotron p {
+    font-size: 13px;
+}
+
+.jumbotron span {
+    color: #0c4ab5;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top: 12px;
+    font-weight: bold;
+
+}
+
+.breadcrumb {
+    padding: 1rem 0;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+}
+
+.breadcrumb-item a {
+    font-size: 1em;
+    color: #909090;
+}
+
+.breadcrumb-item+.breadcrumb-item:before {
+    content: ">";
+}
