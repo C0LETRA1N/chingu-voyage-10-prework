@@ -115,3 +115,7 @@ li {
     color: #000;
     text-decoration: underline;
 }
+
+.jumbotron {
+    padding-top: 0;
+}
