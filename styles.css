@@ -76,3 +76,42 @@ li {
     border: none;
     border-bottom: 1px solid #282f54
 }
+
+.bottom-nav nav {
+    padding: 0;
+}
+
+.bottom-nav ul {
+    width: 100%;
+}
+
+.bottom-nav li {
+    width: 20%;
+    background: #282f54;
+    text-align: center;
+}
+
+.bottom-nav .navbar-light .navbar-nav li a {
+    color: #fff;
+    padding: 11px 0;
+    font-weight: 700;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #282f54;
+}
+
+.bottom-nav li.active {
+    background: #dfe0e6;
+}
+
+.bottom-nav .navbar-light .navbar-nav li.active a {
+    color: #282f54;
+}
+
+.bottom-nav .navbar-light .navbar-nav li:hover {
+    background: #f1f1f1;
+}
+
+.bottom-nav .navbar-light .navbar-nav li:hover a {
+    color: #000;
+    text-decoration: underline;
+}
