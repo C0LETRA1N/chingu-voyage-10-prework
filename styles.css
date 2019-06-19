@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+.top-nav {
+    margin-bottom: 25px;
+}
+
 .navbar-light .navbar-brand.logo-text {
     background: #000;
     color: #fff;
