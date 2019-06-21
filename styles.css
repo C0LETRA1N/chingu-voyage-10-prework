@@ -154,3 +154,7 @@ li {
 .breadcrumb-item+.breadcrumb-item:before {
     content: ">";
 }
+
+.document-list {
+    padding: 30px 10px;
+}
