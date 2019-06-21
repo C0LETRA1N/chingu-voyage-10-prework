@@ -158,3 +158,26 @@ li {
 .document-list {
     padding: 30px 10px;
 }
+
+footer {
+    background-color: #000
+}
+
+footer .footer-navbar {
+    background-color: #000;
+}
+
+footer .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.footer-nav-list li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer-nav-list li a {
+    border-right: 1px solid #ccc;
+    height: 4px;
+    padding: 2px 0 11px 10px;
+}
