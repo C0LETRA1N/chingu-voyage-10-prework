@@ -191,3 +191,7 @@ footer .copyright, footer .registered {
     width: 35px;
     height: 35px;
 }
+
+.hidden-nav {
+    display: none;
+}
