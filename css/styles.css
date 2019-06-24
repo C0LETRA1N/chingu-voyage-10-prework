@@ -83,6 +83,7 @@ li {
 
 .bottom-nav ul {
     width: 100%;
+    list-style: none;   
 }
 
 .bottom-nav li {
@@ -196,6 +197,35 @@ footer .copyright, footer .registered {
     display: none;
 }
 
-#news-panel {
+.bottom-nav li:hover #news-panel, .bottom-nav li:hover #market-directory-panel,
+.bottom-nav li:hover #market-resources-panel, .bottom-nav li:hover #tools-panel,
+.bottom-nav li:hover #lloyds-panel {
+    display: block;
+}
+
+#news-panel, #market-directory-panel, #market-resources-panel, #tools-panel, #lloyds-panel {
     position: absolute;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 30px;
+    left: 0;
+}
+
+.hidden-nav {
+    text-align: left;
+}
+
+.hidden-list {
+    padding: 0;
+}
+
+.hidden-list li {
+    width: 33.33%;
+    background: none;
+    float: left;
+    text-align: left;
+}
+
+.hidden-list li a {
+    padding: 10px 0;
 }

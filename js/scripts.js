@@ -1,4 +1,4 @@
-$('#news-tab').mouseenter(function(){
+/*$('#news-tab').mouseenter(function(){
     $('#news-panel').show();
     console.log("entered");
 });
@@ -6,4 +6,4 @@ $('#news-tab').mouseenter(function(){
 $('#news-tab').mouseleave(function(){
     $('#news-panel').hide();
     console.log("left");
-});
+});*/
