@@ -195,3 +195,7 @@ footer .copyright, footer .registered {
 .hidden-nav {
     display: none;
 }
+
+#news-panel {
+    position: absolute;
+}
