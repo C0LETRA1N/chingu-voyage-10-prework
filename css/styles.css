@@ -4,6 +4,20 @@
     }
 }
 
+@font-face {
+    font-family: voyage-bold;
+    src: url('../fonts/voyage-bold.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: voyage;
+    src: url('../fonts/voyage.woff2') format(woff2);
+}
+
+body {
+    font-family: 'voyage', Arial, Helvetica, sans-serif;
+}
+
 .container {
     padding: 0;
 }
