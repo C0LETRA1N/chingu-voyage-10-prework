@@ -228,4 +228,6 @@ footer .copyright, footer .registered {
 
 .hidden-list li a {
     padding: 10px 0;
+    border-top: none !important;
+    border-right: none !important;
 }
