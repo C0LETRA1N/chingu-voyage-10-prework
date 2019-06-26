@@ -72,6 +72,10 @@ html {
     padding: 2px 0 11px 10px;
 }
 
+.top-nav-list li:last-child a {
+    border-right: none;
+}
+
 li {
     font-size: 12px;
 }
@@ -138,11 +142,11 @@ li {
     color: #282f54;
 }
 
-.bottom-nav .navbar-light .navbar-nav li:hover {
+.bottom-nav .navbar-light .navbar-nav > li:hover {
     background: #f1f1f1;
 }
 
-.bottom-nav .navbar-light .navbar-nav li:hover a {
+.bottom-nav .navbar-light .navbar-nav li:hover > a {
     color: #000;
     text-decoration: underline;
 }
@@ -299,13 +303,22 @@ footer .copyright, footer .registered {
 #news-panel, #market-directory-panel, #market-resources-panel, #tools-panel, #lloyds-panel {
     position: absolute;
     width: 100%;
-    background-color: #fff;
+    background-color: #f1f1f1;
     padding: 20px 30px;
     left: 0;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .hidden-nav {
     text-align: left;
+}
+
+.hidden-nav h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.25em;
 }
 
 .hidden-list {
@@ -317,10 +330,20 @@ footer .copyright, footer .registered {
     background: none;
     float: left;
     text-align: left;
+    padding: 10px 0;
 }
 
 .hidden-list li a {
+    color: #000;
     padding: 10px 0;
     border-top: none !important;
     border-right: none !important;
+}
+
+.bottom-nav .navbar-light .navbar-nav .hidden-list li a {
+    color: #000;
+}
+
+img {
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
 }
